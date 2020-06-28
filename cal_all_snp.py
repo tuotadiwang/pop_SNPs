@@ -137,7 +137,7 @@ print "\n\n*******"
 subpop2allpdb_match = {"EAS": 0, "EUR": 0, "AFR": 0, "SAS": 0, "AMR": 0}
 subpop2allpdb_mismatch = {"EAS": 0, "EUR": 0, "AFR": 0, "SAS": 0, "AMR": 0}
 subpop2allpdb_total = {"EAS": 0, "EUR": 0, "AFR": 0, "SAS": 0, "AMR": 0}
-cal = open("/dors/capra_lab/xieb2/cal_all_snp.txt", "w")
+cal = open("/.../cal_all_snp.txt", "w")
 
 allpdb_nm = 0
 allpdb_total = 0
