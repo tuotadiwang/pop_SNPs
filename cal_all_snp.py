@@ -1,11 +1,11 @@
 #Author: Boyang (Betty) Xie
 #Date: 11/2015
-#email: boyang.xie@vanderbilt.edu
-"""This is the main script used for calculations that compare the different possibilities of 5 subpopulations whose protein sequences are different from those
+#email: 
+"""This is the main script used for calculations that compare the different ratios of 5 subpopulations whose protein sequences are different from those
    in the PDB. It gives out the following numbers: for each structure id in the PDB, the different mismatch ratios of different subpopulations; and the overall
    ratio of mismatch for all the structures in different subpopulations (give a overall view of bias)"""
 """Note that this only focuses on SNPs, not including insertions and deletions."""
-"""This script count by mismatched snp numbers"""
+"""This script counts by mismatched snp numbers"""
 
 
 #!/usr/bin/env python
@@ -13,10 +13,10 @@
 import sys
 import vcf
 
-VCF_FILE = "/dors/capra_lab/xieb2/1kg3_chr2pdb_nosingletons.vcf" #sys.argv[1]   10_indv_1kg3_chr2pdb_nosingletons.vcf
-# VCF_FILE = "/dors/capra_lab/xieb2/10_indv_1kg3_chr2pdb_nosingletons.vcf"
-PDB_INFO_FILE = "/dors/capra_lab/projects/pdb_ancestry_bias/data/1kg3_chr2pdb_nosingletons_tonyedit.txt" #sys.argv[2]
-POPULATION_FILE = "/dors/capra_lab/xieb2/integrated_call_samples_v3.20130502.ALL.panel"
+VCF_FILE = "/.../1kg3_chr2pdb_nosingletons.vcf" #sys.argv[1]   10_indv_1kg3_chr2pdb_nosingletons.vcf
+# VCF_FILE = "/.../10_indv_1kg3_chr2pdb_nosingletons.vcf"
+PDB_INFO_FILE = "/.../1kg3_chr2pdb_nosingletons_tonyedit.txt" #sys.argv[2]
+POPULATION_FILE = "/.../integrated_call_samples_v3.20130502.ALL.panel"
 
 ################################################################################
 # HELPER FUNCTIONS
